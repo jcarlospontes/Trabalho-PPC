@@ -37,8 +37,8 @@ public class Pessoa extends Thread{
                     } catch (InterruptedException e1) {
                         e1.printStackTrace();
                     }
-                System.out.println(getTime(banheiro.getInicialTime())+": "+msgid + "Acabou de chegar no banheiro depois de "+espera/1000+" segundos andando");
-                banheiro.addLog(getTime(banheiro.getInicialTime())+": "+msgid + "Acabou de chegar no banheiro depois de "+espera/1000+" segundos andando");
+                System.out.println(getTime(banheiro.getInicialTime())+": "+msgid + "Acabou de chegar no banheiro depois de "+espera/1000+" segundos");
+                banheiro.addLog(getTime(banheiro.getInicialTime())+": "+msgid + "Acabou de chegar no banheiro depois de "+espera/1000+" segundos");
 
                 // usa a funcao de entrar no banheiro.
                 synchronized(banheiro){
