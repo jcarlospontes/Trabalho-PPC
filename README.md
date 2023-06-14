@@ -1,4 +1,4 @@
-# Trabalho PPC Banheiro Unisex
+# Trabalho de Programação Paralela e Concorrente - Banheiro Unisex
 
 Requer o Java JDK 17 ou superior instalado
 
